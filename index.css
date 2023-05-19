@@ -1,0 +1,40 @@
+.box{
+    background:url(robot.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 500px;
+    width:970px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{ 
+    display: flex;      
+    margin-top:150px;
+    margin-left: 350px;
+    height: 180px;
+    width:300px;
+    position: absolute;
+    align-items: center;
+    font-size: 20px;
+    overflow: auto;
+}
+.button{
+    padding: 2px;
+    height:30px;
+    margin-top:150px;
+    margin-left: 0px;
+    margin-right: 70px;
+    border: 0px;
+    border-radius:12px;
+    
+}
+h1{
+    display:flex;
+    justify-content:center;
+    text-decoration: underline;
+    font-style: oblique;
+}
+i{
+    margin:2px;
+}
